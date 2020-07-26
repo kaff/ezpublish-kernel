@@ -6,6 +6,12 @@
     "suggest": {
         "php-64bit": "For support of more than 30 languages, a 64bit php installation on all involved prod/dev machines is required"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/philipp-kolesnikov/symfony.git"
+        }
+    ],
     "require": {
         "php": "^7.1",
         "ext-ctype": "*",
@@ -19,7 +25,7 @@
         "ext-xsl": "*",
         "ext-curl": "*",
         "ezsystems/doctrine-dbal-schema": "^0.1@dev",
-        "symfony/symfony": "^3.4@dev",
+        "symfony/symfony": "dev-ticket_37667 as 3.4.x-dev",
         "symfony-cmf/routing": "^2.1",
         "kriswallsmith/buzz": "^0.17.2",
         "sensio/distribution-bundle": "^5.0.22",
